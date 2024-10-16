@@ -1,0 +1,9 @@
+/* Estilos adicionales para los efectos suaves */
+input, textarea {
+    transition: all 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(100, 100, 255, 0.3);
+  }
